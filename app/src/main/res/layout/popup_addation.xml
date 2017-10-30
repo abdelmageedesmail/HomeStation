@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/anthor"
+        android:gravity="end"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:id="@+id/anthorAddition"/>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/civ_offerPhoto"
+            android:layout_gravity="center"
+            android:layout_width="130dp"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:id="@+id/linearplus">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/add_pic"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/addPhoto"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"/>
+        </LinearLayout>
+    </FrameLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/mealName"
+        android:paddingLeft="13dp"
+        android:id="@+id/addition_meal_name"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/mealPrice"
+        android:paddingLeft="13dp"
+        android:id="@+id/addition_meal_price"/>
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_add"
+        android:layout_gravity="center"
+        android:text="@string/add"
+        android:textColor="#fff"
+        android:id="@+id/add"
+        android:layout_margin="20dp"/>
+</LinearLayout>

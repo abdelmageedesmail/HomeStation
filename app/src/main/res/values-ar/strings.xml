@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HomeStation</string>
+    <string name="pass">تخطي</string>
+    <string name="customer">زبون</string>
+    <string name="trader">تاجر</string>
+    <string name="email">البريد الاليكتروني</string>
+    <string name="password">كلمة المرور</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="register">حساب جديد</string>
+    <string name="forgetPass">نسيت كلمة المرور ؟</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="isearchFor">انا ابحث عن</string>
+    <string name="newMeal">احدث الوجبات</string>
+    <string name="menu">القائمه</string>
+    <string name="more">المزيد</string>
+    <string name="addMeal">اضافة وجبه</string>
+    <string name="mealName">اسم الوجبه</string>
+    <string name="mealPrice">سعر الوجبه</string>
+    <string name="mealQuantity">الكميه</string>
+    <string name="discount">تخفيض</string>
+    <string name="neww">جديد</string>
+    <string name="anthor">اضافات اخرى</string>
+    <string name="component">مكونات الوجبه</string>
+    <string name="addPhoto">اضافة صوره</string>
+    <string name="order">الطلبات</string>
+    <string name="notification">الاشعارات</string>
+    <string name="add">اضافة</string>
+    <string name="update">تعديل</string>
+    <string name="myMeal">وجباتي</string>
+    <string name="phone">رقم الجوال</string>
+    <string name="online">متاح لتلقي الطلبات</string>
+    <string name="offline">غير متاح لتلقي الطلبات</string>
+    <string name="resturantName">اسم المطعم</string>
+    <string name="address">العنوان</string>
+    <string name="state">الحاله</string>
+    <string name="date">تاريخ الافتتاح</string>
+    <string name="deliverPercent">نسبة التوصيل</string>
+    <string name="delete">حذف الحساب الشخصى</string>
+    <string name="logOut">تسجيل خروج</string>
+    <string name="newMeals">احدث الوجبات</string>
+    <string name="acceptedItem">العروض المقبوله</string>
+    <string name="discover">اطلع على</string>
+    <string name="best">افضل الاسر المنتجه</string>
+    <string name="map">الخريطه</string>
+    <string name="traderName">ابحث باسم المتجر الذي تريده</string>
+    <string name="additonal">الاضافات</string>
+    <string name="acceptTermsAndCondition">الموافقه على الشروط والاحكام</string>
+    <string name="registerWithInsta">يمكنك التسجيل عبر الانستجرام</string>
+    <string name="gmail">جوجل +</string>
+    <string name="twitter">تويتر</string>
+    <string name="face">فيس بوك</string>
+    <string name="copy">نسخ الرابط</string>
+    <string name="moreShare">المزيد</string>
+    <string name="whats">واتس اب</string>
+    <string name="insta">انستغرام</string>
+    <string name="timblier">تيمبلر</string>
+    <string name="addRate">اضغط لاضافة تقييم</string>
+    <string name="yourOpnion">رأيك</string>
+    <string name="oponion">اراء</string>
+    <string name="cancel">الغاء</string>
+    <string name="favourite">المفضله</string>
+    <string name="setting">الاعدادات</string>
+    <string name="lang">اللغه</string>
+    <string name="accept">تم القبول</string>
+    <string name="refuse">تم الرفض</string>
+    <string name="myOrders">طلباتي</string>
+    <string name="profile">الصفحه الشخصية</string>
+    <string name="userName">اسم المستخدم</string>
+    <string name="birthdate">تاريخ الميلاد</string>
+    <string name="type">الحاله</string>
+    <string name="reset">استرجاع كلمة المرور</string>
+    <string name="enterCode">ادخال الكود</string>
+    <string name="textCode">ادخل الكود المحتوى على 5 احرف</string>
+    <string name="confirm">تأكيد</string>
+    <string name="empty">فارغ</string>
+    <string name="cart">السله</string>
+    <string name="orderNow">اطلب الان</string>
+    <string name="total">الاجمالي</string>
+    <string name="quantity">الكميه</string>
+    <string name="updatePass">تعديل كلمة المرور</string>
+    <string name="confirmPass">تأكيد كلمة المرور</string>
+    <string name="orderDetails">تفاصيل الطلب</string>
+    <string name="orderAddress">عنوان الطلب</string>
+    <string name="contact">رقم الجوال للتواصل</string>
+    <string name="cobon">الكوبون</string>
+    <string name="ifyouHave">اذا كان لديك كوبون ادخل الرقم الموجود عليه</string>
+    <array name="meals">
+        <item>فطار</item>
+        <item>غداء</item>
+        <item>عشاء</item>
+    </array>
+
+    <array name="titleTrader">
+        <item>الصفحه الرئيسيه</item>
+        <item>اضافة وجبه</item>
+        <item>قائمة الوجبات</item>
+        <item>قائمة الطلبات</item>
+        <item>الطلبات المقبوله</item>
+        <item>عن التطبيق</item>
+        <item>اتصل بنا</item>
+        <item>الاعدادات</item>
+        <item>الخصوصيه</item>
+        <!--<item>تسجيل خروج</item>-->
+    </array>
+
+
+    <array name="titleUser">
+        <item>الرئيسيه</item>
+        <item>الاسر المنتجه</item>
+        <item>منتجات خاصه</item>
+        <item>طلباتي</item>
+        <item>عن التطبيق</item>
+        <item>اتصل بنا</item>
+        <item>الاعدادات</item>
+        <item>المفضله</item>
+        <item>الخصوصيه</item>
+        <!--<item>Log Out</item>-->
+    </array>
+
+</resources>

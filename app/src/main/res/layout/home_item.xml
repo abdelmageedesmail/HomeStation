@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/newMeal"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:id="@+id/newMeal"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menu"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:textColor="#5F331E"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:id="@+id/menu"/>
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recyclerInnerHome"
+        />
+</LinearLayout>

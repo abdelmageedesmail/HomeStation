@@ -1,0 +1,169 @@
+<nl.psdcompany.duonavigationdrawer.views.DuoDrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_side_menu"
+    android:layout_gravity="start"
+    android:layoutDirection="ltr">
+
+    <nl.psdcompany.duonavigationdrawer.views.DuoMenuView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/bg_side_menu"
+        android:orientation="vertical"
+        android:tag="@string/tag_menu"
+        app:background="@mipmap/bg_side_menu"
+        app:footer="@layout/duo_view_footer"
+        app:header="@layout/duo_view_header"
+        android:gravity="start"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:tag="@string/tag_content">
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/colorAccent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum=".8">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="#B71D27"
+                    android:orientation="horizontal"
+                    android:layout_marginEnd="10dp"
+                    android:id="@+id/search">
+
+
+                    <!--<meta-data-->
+                        <!--android:name="android.app.searchable"-->
+                        <!--android:resource="@xml/searchable">-->
+                    <!--</meta-data>-->
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:background="@mipmap/trader_location" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="10dp"
+                        android:background="@drawable/search_shape"
+                        android:focusableInTouchMode="false"
+                        android:hint="@string/isearchFor"
+                        android:paddingLeft="10dp"
+                        android:textColorHint="#d3d3d3"
+                        android:id="@+id/isearchFor"/>
+
+
+                </LinearLayout>
+
+
+
+                <com.miguelcatalan.materialsearchview.MaterialSearchView
+                    android:id="@+id/search_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    app:searchCloseIcon="@drawable/ic_action_navigation_close_inverted"
+                    app:searchBackIcon="@mipmap/back"
+                    app:searchSuggestionIcon="@drawable/ic_suggestion"
+                    android:textColor="#fff"
+                    android:textColorHint="#fff"
+                    android:visibility="gone"/>
+                <ImageView
+                    android:id="@+id/notification"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginStart="10dp"
+                    android:background="@mipmap/cart" />
+            </LinearLayout>
+        </android.support.v7.widget.Toolbar>
+
+
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white">
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ss.com.bannerslider.views.BannerSlider
+                    android:id="@+id/bs_banner_slider"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:padding="20dp"
+                    app:animateIndicators="true"
+                    app:defaultIndicators="circle"
+                    android:background="@mipmap/header"
+                    app:emptyView="@layout/layout_empty_view"
+                    app:indicatorSize="10dp"
+                    app:interval="2000"
+                    app:loopSlides="true"
+                    app:selected_slideIndicator="@drawable/slider_select_indicator"
+                    app:unselected_slideIndicator="@drawable/slider_unselect_indicator" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/more"
+                        android:layout_margin="10dp"
+                        android:textStyle="bold"
+                        android:id="@+id/more"
+                        android:layout_weight="1"
+                        android:textColor="#5F331E"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/newMeals"
+                        android:gravity="end"
+                        android:layout_margin="10dp"
+                        android:textStyle="bold"
+                        android:id="@+id/newMeals"
+                        android:layout_weight="1"
+                        android:textColor="#000"/>
+                </LinearLayout>
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recyclerUSerHome"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            </ScrollView>
+        </FrameLayout>
+    </LinearLayout>
+</nl.psdcompany.duonavigationdrawer.views.DuoDrawerLayout>

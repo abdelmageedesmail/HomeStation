@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">HomeStation</string>
+    <string name="pass">Pass</string>
+    <string name="customer">Customer</string>
+    <string name="trader">Trader</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">New Account</string>
+    <string name="forgetPass">Forget Password ?</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="isearchFor">I search for</string>
+    <string name="newMeal">New meal</string>
+    <string name="menu">Menu</string>
+    <string name="more">More</string>
+    <string name="addMeal">Add Meal</string>
+    <string name="mealName">Meal Name</string>
+    <string name="mealPrice">Meal Price</string>
+    <string name="mealQuantity">Meal Quantity</string>
+    <string name="discount">Discount</string>
+    <string name="neww">New</string>
+    <string name="anthor">Another Addition</string>
+    <string name="component">Meal Component</string>
+    <string name="addPhoto">Add Picture</string>
+    <string name="add">Add</string>
+    <string name="breakFastMeal">BreakFast Meal</string>
+    <string name="lunchMeal">Lunch Meal</string>
+    <string name="dinnerMeal">Dinner Meal</string>
+    <string name="order">Orders</string>
+    <string name="notification">Notification</string>
+    <string name="update">Update</string>
+    <string name="myMeal">My Meal</string>
+    <string name="phone">Phone Number</string>
+    <string name="online">Online to get orders</string>
+    <string name="offline">Offline cannot get any order</string>
+    <string name="additonal">Additions</string>
+    <string name="resturantName">Restaurant Name</string>
+    <string name="address">Address</string>
+    <string name="state">State</string>
+    <string name="date">Opening date</string>
+    <string name="deliverPercent">Deliver Percent</string>
+    <string name="delete">Delete personal account</string>
+    <string name="logOut">Log Out</string>
+    <string name="acceptedItem">Accepted Orders</string>
+    <string name="newMeals">New Meals</string>
+    <string name="discover">Discover</string>
+    <string name="best">The best of family producers</string>
+    <string name="map">Map</string>
+    <string name="oponion">Opinions</string>
+    <string name="gmail">Google +</string>
+    <string name="twitter">Twitter</string>
+    <string name="face">FaceBook</string>
+    <string name="copy">Copy</string>
+    <string name="moreShare">More share</string>
+    <string name="whats">Whats app</string>
+    <string name="insta">Instagram</string>
+    <string name="timblier">Timblier</string>
+    <string name="addRate">Press to add rate</string>
+    <string name="yourOpnion">Your Opinion</string>
+    <string name="traderName">Search by market name</string>
+    <string name="cancel">Cancel</string>
+    <string name="favourite">Favourite</string>
+    <string name="setting">Setting</string>
+    <string name="lang">Language</string>
+    <string name="accept">Accepted</string>
+    <string name="refuse">Refused</string>
+    <string name="myOrders">My Orders</string>
+    <string name="profile">Profile</string>
+    <string name="userName">User Name</string>
+    <string name="birthdate">Birth date</string>
+    <string name="type">State</string>
+    <string name="acceptTermsAndCondition">Accept terms and conditions</string>
+    <string name="registerWithInsta">Register with instagram</string>
+    <string name="reset">Reset Password</string>
+    <string name="enterCode">Enter Code</string>
+    <string name="textCode">Enter code with 5 character</string>
+    <string name="confirm">Confirm</string>
+    <string name="empty">empty</string>
+    <string name="cart">Cart</string>
+    <string name="orderNow">Order Now</string>
+    <string name="total">total</string>
+    <string name="quantity">Quantity</string>
+    <string name="updatePass">Edit password</string>
+    <string name="confirmPass">Confirm password</string>
+    <string name="orderDetails">Order Details</string>
+    <string name="orderAddress">Order Address</string>
+    <string name="contact">Phone number to contact</string>
+    <string name="cobon">Coupon</string>
+    <string name="ifyouHave">If you have coupon enter number</string>
+    <array name="meals">
+        <item>breakfast</item>
+        <item>lunch</item>
+        <item>dinner</item>
+    </array>
+
+    <array name="titleTrader">
+        <item>Home</item>
+        <item>Add meal</item>
+        <item>Meal Menu</item>
+        <item>Order list</item>
+        <item>accepted Orders</item>
+        <item>About Application</item>
+        <item>Contact us</item>
+        <item>Setting</item>
+        <item>Privacy</item>
+        <!--<item>Log Out</item>-->
+    </array>
+
+
+    <array name="titleUser">
+        <item>Home</item>
+        <item>Families produced</item>
+        <item>Special Products</item>
+        <item>My Orders</item>
+        <item>About Application</item>
+        <item>Contact us</item>
+        <item>Setting</item>
+        <item>Wish List</item>
+        <item>Privacy</item>
+        <!--<item>Log Out</item>-->
+    </array>
+
+    <string name="title_activity_maps">Map</string>
+</resources>
